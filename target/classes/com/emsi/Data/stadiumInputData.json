@@ -1,0 +1,26 @@
+[
+  {
+      "id": 1,
+      "name": "Stadium 1",
+      "city": "City 1",
+      "address": "Address 1",
+      "constructionYear": 2000,
+      "capacity": 10000.0
+  },
+  {
+      "id": 2,
+      "name": "Stadium 2",
+      "city": "City 2",
+      "address": "Address 2",
+      "constructionYear": 2005,
+      "capacity": 15000.0
+  },
+  {
+      "id": 3,
+      "name": "Stadium 3",
+      "city": "City 3",
+      "address": "Address 3",
+      "constructionYear": 2010,
+      "capacity": 20000.0
+  }
+]

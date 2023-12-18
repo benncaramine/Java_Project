@@ -1,0 +1,151 @@
+.dark-background {
+    -fx-background-color: #424242;
+    background-color: #424242;
+}
+
+* {
+    -fx-font-family: 'serif';
+    font-family: 'serif';
+}
+
+.button {
+    -fx-background-color: #ff6464;
+    background-color: #ff6464;
+    -fx-text-fill: white;
+    -fx-border-color: #ff6464;
+    border-color: #ff6464;
+    -fx-border-width: 2px;
+    border-width: 2px;
+    -fx-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button:pressed {
+    -fx-background-color: #888888;
+    background-color: #888888;
+    -fx-text-fill: white;
+}
+
+.button:focused {
+    -fx-border-color: #ff6464;
+    border-color: #ff6464;
+}
+
+.button:hover {
+    -fx-border-color: white;
+    border-color: white;
+    -fx-border-width: 2px;
+    border-width: 2px;
+    -fx-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.text-field {
+    -fx-background-color: #555555;
+    background-color: #555555;
+    -fx-text-fill: white;
+    -fx-border-color: #888888;
+    border-color: #888888;
+    -fx-border-width: 2px;
+    border-width: 2px;
+    -fx-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #ff6464;
+    border-color: #ff6464;
+}
+
+.text-field:hover {
+    -fx-border-color: white;
+    border-color: white;
+    -fx-border-width: 2px;
+    border-width: 2px;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.blackBG {
+    -fx-background-color: #424242;
+    background-color: #424242;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-border-color: #888888;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #555555;
+    background-color: #555555;
+}
+
+.table-view:focused {
+    -fx-border-color: #ff6464;
+    border-color: #ff6464;
+}
+
+.table-view:hover {
+    -fx-border-color: white;
+    border-color: white;
+}
+
+.table-column {
+    -fx-text-fill: white;
+    -fx-background-color: #555555;
+    background-color: #555555;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-background-color: #555555;
+    background-color: #555555;
+}
+
+.table-row-cell:selected {
+    -fx-border-color: #888888;
+    border-color: #888888;
+}
+
+.alert {
+    -fx-background-color: #424242;
+    background-color: #424242;
+    -fx-text-fill: white;
+}
+
+.alert .dialog-pane {
+    -fx-background-color: #2B2B2B;
+    background-color: #2B2B2B;
+}
+
+.alert .label {
+    -fx-text-fill: white;
+}
+
+.alert .button-bar .button {
+    -fx-background-color: #555555;
+    background-color: #555555;
+    -fx-text-fill: white;
+    -fx-border-color: #888888;
+    border-color: #888888;
+    -fx-border-width: 2px;
+    border-width: 2px;
+    -fx-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.alert .button-bar .button:hover {
+    -fx-border-color: white;
+    border-color: white;
+}
+
+.alert .button-bar .button:pressed {
+    -fx-background-color: #888888;
+    background-color: #888888;
+    -fx-text-fill: white;
+}
+

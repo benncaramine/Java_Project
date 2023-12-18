@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+
+<HBox alignment="CENTER" spacing="50.0" xmlns="http://javafx.com/javafx/8.0.171"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.emsi.controller.StadiumListController"
+    styleClass="blackBG" stylesheets="@styles.css">
+
+    <VBox alignment="CENTER" spacing="20" styleClass="blackBG">
+    <Label text="Username:" fx:id="usernameLabel" styleClass="whiteLB" />
+        <HBox spacing="20">
+            <Button text="Create" onAction="#createStadium" prefWidth="100" />
+            <Button text="Read" onAction="#readStadium" prefWidth="100" />
+            <Button text="Update" onAction="#updateStadium" prefWidth="100" />
+            <Button text="Delete" onAction="#deleteStadium" prefWidth="100" />
+            <Button text="Export" onAction="#exportData" prefWidth="100" />
+            <Button text="Import" onAction="#importData" prefWidth="100" />
+        </HBox>
+        <TableView fx:id="stadiumTableView" styleClass="darkTB">
+            <columns>
+                <TableColumn text="ID" prefWidth="100">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="id" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Name" prefWidth="100">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="name" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="City" prefWidth="100">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="city" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Address" prefWidth="100">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="address" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Construction Year" prefWidth="100">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="constructionYear" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Capacity" prefWidth="200">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="capacity" />
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </VBox>
+</HBox>
